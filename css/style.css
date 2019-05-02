@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+
+	
+
+}
+
+
+.fond {
+
+	background-image: url('../img/w_work.jpg');
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+
+
+
+
+}
+
+.nom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+.presentation {
+
+	align-content: center;
+	height: 750px;
+	background-color: #D4D4D4;
+
+
+}
+
+ 
+
+.photo {
+
+
+	/*centrage de l'image*/
+	display: flex;
+	justify-content: center;
+	/*centrage de l'image*/
+
+}
+ 
+
+.petit_texte {
+
+
+ 
+	display: flex;
+
+	align-items: center;
+	text-align: justify;
+
+
+} 
+
+
+
+
+
+
+
+.texte {
+
+	display: flex;
+	align-items: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 5em;
+	color: #83B1ED;
+
+}
+
+.img_nuage {
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.nuage{
+	
+	height: 750px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.colored {
+
+
+
+	padding: 30px 30px 30px 30px;
+}
+
+.col-sm {
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/*ZOOM*/
+
+
+i:hover {
+	-ms-transform: scale(1.1);
+	/* IE 9 */
+	-webkit-transform: scale(1.1);
+	/* Safari 3-8 */
+	transform: scale(1.1);
+	/*la commande du zoom*/
+}
+
+
+/*taille des icones */
+/*une icone est un font très important*/
+.devicon {
+	font-size: 100px;
+	/*taille des icones */
+}
+
+
+.matable {
+
+	background-color: #D4D4D4;
+	height: 750px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.mes_boutons,
+.coordo {
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.btn {
+
+	height: 50px;
+	width: 300px;
+
+}
+
+article {
+
+	text-align: center;
+}
+
+
+.contact {
+
+	background-color: white;
+	height: 800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+form .btn:hover {
+	border: none;
+	background-color: #F8C145;
+	color: black;
+}
